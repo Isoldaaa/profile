@@ -1,0 +1,114 @@
+img{
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+body{
+    background-color: #F1DABF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 0;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h2{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
+    line-height: 0;
+    color: whitesmoke;
+}
+
+p{
+    font-family: 'Arvo', serif;
+    color: #573D1C;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+div {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.content-1{
+  background-color: #EF5D60;
+  box-shadow: 10px 10px 0 #f3456e;
+
+}
+ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+i {
+    font-size: 48px;
+}
+
+i:hover{
+    color: whitesmoke;
+}
+
+.button{
+  padding: 10px 15px;  
+  background-color: purple;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: whitesmoke;
+
+  hover{
+    background-color: white;
+  }
+}
+
+.button:hover{
+    color:purple ;
+    background-color: whitesmoke;
+}
+
+
+@media(max-width: 700px){
+    .container{
+            width: 500px;
+        }
+
+}
+
+@media(max-width: 500px){
+    .container{
+            width: 400px;
+        }
+
+    h1{
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+
+    .button{
+        font-size: 15px;
+    }
+
+}
